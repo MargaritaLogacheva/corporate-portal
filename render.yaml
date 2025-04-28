@@ -1,0 +1,8 @@
+services:
+- type: web
+  name: corporate-portal
+  env: docker
+  plan: free
+  region: oregon
+  dockerfilePath: ./Dockerfile
+  autoDeploy: false
